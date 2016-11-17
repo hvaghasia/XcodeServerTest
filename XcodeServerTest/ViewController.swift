@@ -17,7 +17,6 @@ class ViewController: UIViewController {
         let helloLabel = UILabel()
         helloLabel.text = "hello World !"
         view.addSubview(helloLabel)
-    
     }
 
     override func didReceiveMemoryWarning() {

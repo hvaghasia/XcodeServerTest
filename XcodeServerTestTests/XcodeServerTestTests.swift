@@ -21,14 +21,12 @@ class XcodeServerTestTests: XCTestCase {
         super.tearDown()
     }
     
-    func testSampleOne() {
-        let myName = "Hardik"
-        XCTAssertTrue(myName == "Hardik")
+    func testOne() {
+        XCTAssertTrue(true)
     }
     
-    func testSampleSecond() {
-        let myName = "Vaghasia"
-        XCTAssertTrue(myName == "Hardik")
+    func testTwo() {
+        XCTAssertTrue(false)
     }
     
 }
