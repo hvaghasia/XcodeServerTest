@@ -17,6 +17,10 @@ class ViewController: UIViewController {
         let helloLabel = UILabel()
         helloLabel.text = "hello World !"
         view.addSubview(helloLabel)
+        
+        let label2 = UILabel()
+        label2.text = "Good Morning"
+        view.addSubview(label2)
     }
 
     override func didReceiveMemoryWarning() {
